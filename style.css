@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding:0;
+    background:linear-gradient(135deg,#000,#2b0000);
+    color:white;
+    font-family:Georgia,serif;
+    text-align:center;
+    overflow-x:hidden;
+}
+
+.welcome{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.hero-photo{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid gold;
+    box-shadow:0 0 25px gold;
+    animation:zoom 5s infinite alternate;
+}
+
+h1{
+    color:gold;
+    margin-top:25px;
+    font-size:38px;
+}
+
+h2{
+    color:#ffd700;
+    font-weight:normal;
+    line-height:1.7;
+}
+
+p{
+    width:90%;
+    max-width:500px;
+    font-size:18px;
+    color:#fff;
+    margin:20px auto;
+}
+
+button{
+    background:gold;
+    color:black;
+    padding:15px 35px;
+    border:none;
+    border-radius:40px;
+    font-size:20px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+}
+
+@keyframes zoom{
+from{
+transform:scale(1);
+}
+to{
+transform:scale(1.08);
+}
+}

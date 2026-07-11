@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Beautiful Memories ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>📸 Our Beautiful Memories ❤️</h1>
+
+<div class="gallery">
+
+<img src="photos/putta.jpg">
+<p>This smile stole my heart forever. ❤️</p>
+
+<img src="photos/photo1.jpg">
+<p>Every moment with you became my favorite memory.</p>
+
+<img src="photos/photo2.jpg">
+<p>Your smile is my peace. 🌸</p>
+
+<img src="photos/photo3.jpg">
+<p>Holding your hand is my favorite feeling. ❤️</p>
+
+<img src="photos/photo4.jpg">
+<p>Every journey becomes beautiful because you're beside me.</p>
+
+<img src="photos/photo5.jpg">
+<p>My today, my tomorrow, my forever. 💍</p>
+
+</div>
+
+<a href="final.html">
+<button>Next Surprise ❤️</button>
+</a>
+
+</body>
+</html>

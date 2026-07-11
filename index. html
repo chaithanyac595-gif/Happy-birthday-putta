@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Putta ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="welcome">
+    <img src="photos/putta.jpg" class="hero-photo" alt="Putta">
+
+    <h1>🎂 Happy Birthday, Putta ❤️</h1>
+
+    <h2>To My Boyfriend,<br>My Best Friend,<br>My Future Husband 💍</h2>
+
+    <p>
+        "Every love story is beautiful,
+        but ours is my favorite."
+    </p>
+
+    <button onclick="startSurprise()">
+        💖 Open My Heart
+    </button>
+
+    <audio id="music" controls style="display:none;">
+        <source src="music/mellage_dyanisu.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
